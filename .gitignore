@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Data and experiment artifacts
+data/raw/
+data/interim/
+data/processed/
+artifacts/
+outputs/
+
+# Local uv cache if you keep using it in-project
+.uv-cache/
